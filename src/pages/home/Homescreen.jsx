@@ -1,7 +1,6 @@
 import React from "react";
-import "./Homescreen.css";
-import profileImg from "../../assets/images/profile.svg";  // Updated import for SVG
-
+import "./Homescreen.css"; 
+import profileImg from "../../assets/images/profile.png";
 const Homescreen = () => {
   return (
     <div className="hero">
@@ -15,7 +14,7 @@ const Homescreen = () => {
         <a href="/contact" className="btn-primary">Get In Touch</a>
       </div>
       <div className="hero-image">
-        <img src={profileImg} alt="Profile" />  {/* Use the SVG image */}
+        <img src={profileImg} alt="Profile" />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';  // Add your styles for the About Me page
-import profileImg from '../../assets/images/profile.svg';  // Replace with the actual image path
+import profileImg from '../../assets/images/profile.png';  // Replace with the actual image path
 
 const AboutMe = () => {
   return (
